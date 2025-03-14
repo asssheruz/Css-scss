@@ -14,15 +14,23 @@ body {
 .header {
     padding: 20px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+h1 {
+    img {
+        width: 100px;
+    }
+}
+
 }
 .nav {
     margin-top: 10px;
-}
-.nav a {
+a {
     margin: 0 10px;
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
 }
 .container {
     max-width: 800px;
@@ -36,8 +44,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-}
-.recipes img {
+ img {
     width: 100%;
     border-radius: 5px;
+}
 }
